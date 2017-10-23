@@ -6,7 +6,7 @@ function readyNow() {
     $('#addBtn').on('click', addClicked);
     $('#viewTask').on('click', '.deleteBtn', deleteClicked);
     $('#viewTask').on('click', '.completeBtn', completeClicked);
-    $('tr').on('click', changebackground);
+  
 }
 
 
@@ -89,7 +89,7 @@ function deleteClicked(){
     })
 }
 
-var $todolist = $('#viewTask');
+
 
 function completeClicked() {
     var taskId = $(this).data('id');
