@@ -23,3 +23,8 @@ Publish your app to Heroku.
 Adjust the logic so that completed tasks are brought to the bottom of the page, where the remaining tasks left to complete are brought to the top of the list.
 Add a due date to your tasks and put the items which need to be completed next at the top of the page. Highlight overdue tasks in red.
 Add any additional features that you think would be useful or interesting!
+
+```create table "todolist" (
+"id" serial primary key,
+"task" varchar (300) not null
+);```

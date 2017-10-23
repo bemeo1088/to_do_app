@@ -1,0 +1,60 @@
+h1 {
+    color: darkgreen;
+    text-align: center;
+}
+
+container {
+    color: green;
+    float: left;
+    
+}
+
+.jumbotron {
+      background-image: url(http://images.nationalgeographic.com/wpf/media-live/photos/000/716/cache/canvasback-ducks-maryland_71644_990x742.jpg);
+      background-size:cover;
+      background-repeat:no-repeat
+}
+
+
+input {
+    border: none;
+    width: 50%;
+    padding: 10px;
+    float: center;
+    font-size: 16px;
+}
+
+table, th, td {
+   border: 1px solid black;
+   padding: 15px;
+}
+
+.btn {
+    padding: 10px;
+    width: 15%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 5px;
+}
+
+#addBtn {
+    float: center;
+}
+
+.btn:hover {
+    background-color: #bbb;
+}
+
+.form-group {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#viewTask {
+    margin: 0 auto;
+}
