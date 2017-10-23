@@ -12,7 +12,7 @@ container {
 .jumbotron {
       background-image: url(http://images.nationalgeographic.com/wpf/media-live/photos/000/716/cache/canvasback-ducks-maryland_71644_990x742.jpg);
       background-size:cover;
-      background-repeat:no-repeat
+      background-repeat:no-repeat;    
 }
 
 
@@ -42,9 +42,6 @@ table, th, td {
     margin: 5px;
 }
 
-#addBtn {
-    float: center;
-}
 
 .btn:hover {
     background-color: #bbb;
